@@ -1,32 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="/images/icon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="src/styles/global.css">
-  <title>Card Challenge tailwind</title>
-</head>
-<body class="font-raleway">
-  <main class="grid h-screen place-content-center w-full">
-    <article class="mx-4">
-      <header>
-        <img src="/images/hero-bg-card.jpg" alt="evening landscape " class="">
-      </header>
-      <div class="">
-        <h2 class="font-bold">The Coldest Sunset</h2>
-        <p class="font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-        </p>
-      </div>
-      <footer class="">
-        <ul class="font-medium">
-          <li class=""></li>
-          <li class=""></li>
-          <li class=""></li>
-        </ul>
-      </footer>
-    </article>
-  </main>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="/images/icon.svg" type="image/x-icon" />
+		<link rel="stylesheet" href="src/styles/global.css" />
+		<title>Card Challenge tailwind</title>
+	</head>
+	<body class="bg-gray-50 font-raleway">
+		<main class="grid h-screen place-content-center px-4 w-full">
+			<article class="bg-white pb-8 rounded-xl shadow-xl max-w-sm">
+				<header>
+					<img
+						alt="evening landscape "
+						class="rounded-tl-lg rounded-tr-lg"
+						src="/images/hero-bg-card.jpg"
+					/>
+				</header>
+				<div class="px-4 mb-8 max-w-[22rem] sm:pl-6">
+					<h2 class="font-black my-4 text-gray-900 text-xl">
+						The Coldest Sunset
+					</h2>
+					<p class="font-normal text-base text-gray-700">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Voluptatibus quia, nulla! Maiores et perferendis eaque,
+						exercitationem praesentium nihil.
+					</p>
+				</div>
+				<footer class="px-4 sm:pl-6 sm:pr-12">
+					<ul class="items-center flex flex-wrap font-semibold gap-2 gap-y-6">
+						<li class="">
+							<a
+								class="bg-gray-200 p-2 px-3 rounded-full text-gray-700"
+								href="#"
+								>#photography</a
+							>
+						</li>
+						<li class="">
+							<a
+								class="bg-gray-200 p-2 px-3 rounded-full text-gray-700"
+								href="#"
+								>#travel</a
+							>
+						</li>
+						<li class="">
+							<a
+								class="bg-gray-200 p-2 px-3 rounded-full text-gray-700"
+								href="#"
+								>#winter</a
+							>
+						</li>
+					</ul>
+				</footer>
+			</article>
+		</main>
+	</body>
 </html>
